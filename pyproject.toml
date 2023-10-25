@@ -1,0 +1,13 @@
+[tool.pytest.ini_options]
+pythonpath = [
+    ".",
+    "src",
+    "src/axidoc",
+    "src/nlp_processing",
+]
+addopts = [
+    "--import-mode=importlib",
+]
+testpaths = [
+    "tests",
+]
